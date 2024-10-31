@@ -1,0 +1,13 @@
+<!ELEMENT movies (theater+)>
+<!ELEMENT theater (movie+)>
+<!ATTLIST theater name CDATA #REQUIRED>
+
+<!ELEMENT movie (genre, duration, showtimes, seating, image)>
+<!ATTLIST movie title CDATA #REQUIRED rating CDATA #IMPLIED>
+
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT showtimes (showtime+)>
+<!ELEMENT showtime (#PCDATA)>
+<!ELEMENT seating (#PCDATA)>
+<!ELEMENT image (#PCDATA)>

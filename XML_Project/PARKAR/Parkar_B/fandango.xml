@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="fandango.xslt"?>
+<movies xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="fandango.xsd">
+  <theater name="Regal Henrietta">
+    <movie title="Megan" rating="PG-13">
+      <genre>Comedy, Horror, Mystery, Thriller, Sci-Fi/Fantasy, Suspense</genre>
+      <duration>1 hr 42 min</duration>
+      <showtimes>
+        <showtime>1:30p</showtime>
+        <showtime>4:40p</showtime>
+        <showtime>7:40p</showtime>
+      </showtimes>
+      <seating>Reserved seating, Stadium Seating</seating>
+      <image>images/megan.jpg</image>
+    </movie>
+    
+    <movie title="Elvis" rating="PG-13">
+      <genre>Biography, Drama, Music, Performing Arts</genre>
+      <duration>2 hr 39 min</duration>
+      <showtimes>
+        <showtime>3:45p</showtime>
+        <showtime>6:10p</showtime>
+      </showtimes>
+      <seating>Reserved seating, Stadium Seating</seating>
+      <image>images/elvis.jpg</image>
+    </movie>
+
+    <movie title="Missing" rating="PG-13">
+      <genre>Drama, Mystery, Thriller, Suspense/Thriller</genre>
+      <duration>1 hr 51 min</duration>
+      <showtimes>
+        <showtime>12:50p</showtime>
+        <showtime>3:50p</showtime>
+        <showtime>6:50p</showtime>
+      </showtimes>
+      <seating>Reserved seating, Stadium Seating</seating>
+      <image>images/missing.jpg</image>
+    </movie>
+  </theater>
+
+  <theater name="AMC Webster 12">
+    <movie title="Black Panther:Wakanda Forever" rating="PG-13">
+      <genre>Action, Adventure, Sci-Fi/Fantasy </genre>
+      <duration>2 hr 41 min</duration>
+      <showtimes>
+        <showtime>7:15p</showtime>
+      </showtimes>
+      <seating>Reserved seating</seating>
+      <image>images/black_panther.jpg</image>
+    </movie>
+    
+    <movie title="The Fabelmans" rating="PG-13">
+      <genre>Drama</genre>
+      <duration>2 hr 31 min</duration>
+      <showtimes>
+        <showtime>3:30p</showtime>
+      </showtimes>
+      <seating>Reserved seating</seating>
+      <image>images/the_fabelmans.jpg</image>
+    </movie>
+
+    <movie title="Infinity Pool" rating="R">
+      <genre>Horror, Mystery, Thriller, Sci-Fi/Fantasy </genre>
+      <duration>1 hr 37 min</duration>
+      <showtimes>
+        <showtime>7:00p</showtime>
+        <showtime>1:30p</showtime>
+        <showtime>4:15p</showtime>
+      </showtimes>
+      <seating>Reserved seating</seating>
+      <image>images/infinity_pool.jpg</image>
+    </movie>
+  </theater>
+</movies>

@@ -1,0 +1,33 @@
+
+Project Description - Manufacturing Backorder Prediction
+
+Overview:
+This project involves predicting whether a product will go on backorder based on various inventory metrics. 
+The analysis uses a Gradient Boosting Machine (GBM) model for prediction, providing insights into feature importance and model performance.
+
+Data Description:
+The dataset includes various inventory-related features such as national inventory level, lead time, sales, and forecasts.
+The target variable is 'went_on_backorder', which indicates whether the product actually went on backorder.
+
+Data Cleaning:
+- Missing values are filled using the median of each column.
+- Categorical variables (if any) are converted to numerical codes.
+
+Exploratory Data Analysis (EDA):
+- Distribution plots for all numerical features to understand their spread and central tendency.
+- A correlation matrix heatmap to explore potential multicollinearity between features.
+
+Model Training:
+- A LightGBM classifier is used due to its effectiveness in handling diverse data types and its efficiency in training.
+- The model is trained using 80% of the data, with 20% held out for testing.
+
+Model Evaluation:
+- The model's performance is evaluated using classification metrics such as accuracy, precision, recall, and F1-score.
+- A confusion matrix is presented to visualize the true positives, false positives, true negatives, and false negatives.
+
+Feature Importance:
+- A bar plot of feature importances is generated to highlight which features most significantly impact the model's predictions.
+
+Conclusions:
+- The GBM model provides a robust way to predict backorders, and the feature importance plot offers valuable insights into which inventory metrics are most influential in the prediction.
+- The analysis could help in inventory management decisions and in mitigating risks associated with product shortages or excess stock.
